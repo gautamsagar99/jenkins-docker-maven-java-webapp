@@ -14,7 +14,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">Project Name</a>
+			<a class="navbar-brand" href="#">First Jenkins Project</a>
 		</div>
 	</div>
 </nav>
@@ -24,7 +24,7 @@
 		<h1>${title}</h1>
 		<p>
 			<c:if test="${not empty msg}">
-				Hello ${msg}
+				Hello This application is hosted on a container.
 			</c:if>
 
 			<c:if test="${empty msg}">
@@ -40,15 +40,15 @@
 
 	<div class="row">
 		<div class="col-md-8">
-			<h2>Welcome to LinuxWorld, India , in fully automated jenkins</h2>
-			<h3>Contact training@lwindia.com or mob 9351009002</h3>
+			<h2>Welcome Gautam this in fully automated jenkins Project</h2>
+			<h3>Great Job</h3>
 		</div>	
 	</div>
 
 
 	<hr>
 	<footer>
-		<p>&copy; LW 2022</p>
+		<p></p>
 	</footer>
 </div>
 
